@@ -1,0 +1,418 @@
+/*******GLOBAL*******/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+   padding-bottom:40px;
+    background-color:beige;
+}
+
+
+/*******NAVIGATION*******/
+
+#navigation {
+    background-color: #0f1836;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#nav {
+    display: inline-block;
+    float: right;
+}
+
+#nav ul {
+    float: right;
+    
+}
+
+#nav ul li {
+    display: inline;
+    
+    line-height: 40px;
+    border-bottom: 2px solid transparent;
+    transition: 0.7s ease;
+    padding-bottom: 10px;
+}
+
+#nav ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    transition: 0.7s ease;
+    text-shadow: 10px 10px 20px black;
+}
+
+#nav ul li:hover {
+    border-bottom: 2px solid aliceblue;
+}
+
+#nav ul li a:hover {
+    color: mediumseagreen;
+}
+
+#nav ul li a:active {
+    position: relative;
+    top:1px;
+}
+
+
+#nav ul li a.current {
+    color: mediumseagreen;
+}
+
+#text {
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 51%
+}
+
+
+/*********WORK********/
+
+
+.container h3 {
+    color: mediumseagreen;
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 0 20px grey;
+}
+
+.container p {
+    color: #0f1836;
+    font-family: 'Dosis', sans-serif;
+    font-size: 150%;
+    text-shadow: 2px 2px 20px grey;
+    margin-bottom: 100px;
+}
+
+section .container img {
+    display: inline-block;
+    margin: auto;
+    width: 23%;
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+section .container img:hover {
+    box-shadow: 0 0 20px blue;
+    position: relative;
+    top:1px;
+}
+
+section .container img:active {
+    position: relative;
+    top:3px;
+}
+
+/******FOOTER******/
+#copyright {
+	width:100%;
+	color:#ccc;
+	background-color:#0f1836;
+	line-height:30px;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+    z-index: 999;
+}
+
+/*******CONTACT*******/
+
+.contact {
+    width: 670px;
+    box-shadow: 5px 5px 30px black;
+    margin: 0 auto;
+    transition: 2s ease-out;
+    overflow: hidden;
+}
+
+.contact:hover {
+    box-shadow: 5px 5px 50px blue;
+    transition: 0.5s ease-in;
+}
+
+.container h5 {
+    text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
+    text-shadow: 0 0 100px black;
+    color: mediumseagreen;
+}
+
+.container form#myform input, textarea {
+    margin: 15px auto;
+    width: 100%;
+    height: 50px;
+    display: block;    
+}
+
+.container form#myform input {
+    border: 1px solid black;
+}
+
+.container form#myform textarea {
+    height: 100px;
+}
+
+.container form h4 {
+  margin: 0 0 0 18px;
+  padding: 0;
+}
+
+.contact form#myform input.mybutton {
+    width: 49%;
+    display: inline-block;
+    font-size: 18px;
+    background-color: #0f1836;
+    color: #3cf;
+    font-family: "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #3cf;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 10px auto;
+    transition: 0.3s;
+}
+
+.contact form#myform input.mybutton:hover {
+    color: white;
+    background-color: deepskyblue;
+    transition: 0.3s;
+}
+
+/*******FEATURES*******/
+
+.jumbotron {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/meet-brandy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #0f1836;
+}
+
+#text {
+    position: absolute;
+    left: calc(50% - 220px);
+    top: 45%;
+}
+
+#text h1 {
+    font-size: 500%;
+    font-family: 'Great Vibes', cursive;
+    color: aliceblue;
+    margin: 0;
+    text-shadow: 0 0 100px black;
+}
+
+#text span {
+    font-weight: bold;
+}
+
+#text h2 {
+    color: aliceblue;
+    font-size: 300%;
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 0 100px black;
+}
+
+#text h2 span {
+    color: mediumseagreen;
+}
+
+.branding, .development, .consalting {
+    width: 26.66%;
+    display: inline-block;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+
+
+#wraper {
+    margin-top: 200px;
+}
+
+section#wraper .container h2 {
+    color: mediumseagreen;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 100px;
+    text-decoration: underline;
+    text-shadow: 0 0 100px black;
+    font-family: 'Dosis', sans-serif;
+}
+
+section#wraper .container p {
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 0 100px black;
+    color: inherit;
+    
+}
+
+section#wraper .container h4 {
+    text-align: left;
+    text-decoration: underline;
+    color: mediumseagreen;
+    font-size: 150%;
+}
+
+/*******SOCIAL*******/
+
+.social h6 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 200%;
+    color: mediumseagreen;
+    text-shadow: 2px 2px 4px  black;
+}
+
+.social .scl a:first-child {
+    display: inline-block;
+    margin-left: 39.5%;
+}
+
+.social .scl {
+    margin-bottom: 80px;
+}
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+    user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+    transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+    transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
+
+
+/********MEDIA QUERIS********/
+
+@media screen and (max-width:1024px) {
+
+    
+    .social .scl a:first-child {
+        margin-left: 43%;
+    }
+    .container {
+        width: 95%;
+    
+    }
+    .branding, .development, .consalting {
+        width: 24%;
+        float: left;
+    }
+    section#wraper .container p {
+        font-size: 20px;
+    }
+    section .container {
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:1366px) and (min-width:1024px) {
+    
+    
+    .social .scl a:first-child {
+        margin-left: 43%;
+    }
+    .container {
+        width: 95%;
+    
+    }
+    .branding, .development, .consalting {
+        width: 24%;
+        float: left;
+    }
+    section#wraper .container p {
+        font-size: 20px;
+    }
+    section .container {
+        padding-bottom: 10%;
+    }
+}
