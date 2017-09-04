@@ -291,7 +291,7 @@ section#wraper .container h4 {
 
 .social .scl a:first-child {
     display: inline-block;
-    margin-left: 39.5%;
+    /*margin-left: 39.5%;*/
 }
 
 .social .scl {
